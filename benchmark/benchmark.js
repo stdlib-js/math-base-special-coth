@@ -18,12 +18,34 @@
 
 'use strict';
 
-var linspace = require( '@stdlib/array-base-linspace' );
+// MODULES //
+
+var bench = require( '@stdlib/bench' );
+var randu = require( '@stdlib/random-base-randu' );
+var isnan = require( '@stdlib/math-base-assert-is-nan' );
+var pkg = require( './../package.json' ).name;
 var coth = require( './../lib' );
 
-var x = linspace( -10.0, 10.0, 100 );
 
-var i;
-for ( i = 0; i < x.length; i++ ) {
-	console.log( 'coth(%d) = %d', x[ i ], coth( x[ i ] ) );
-}
+// MAIN //
+
+bench( pkg, function benchmark( b ) {
+	var x;
+	var y;
+	var i;
+
+	b.tic();
+	for ( i = 0; i < b.iterations; i++ ) {
+		x = ( randu()*10.0 ) - 5.0;
+		y = coth( x );
+		if ( isnan( y ) ) {
+			b.fail( 'should not return NaN' );
+		}
+	}
+	b.toc();
+	if ( isnan( y ) ) {
+		b.fail( 'should not return NaN' );
+	}
+	b.pass( 'benchmark finished' );
+	b.end();
+});
