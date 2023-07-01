@@ -24,30 +24,14 @@ limitations under the License.
 
 > Compute the [hyperbolic cotangent][hyperbolic-functions] of a number.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/math-base-special-coth
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var coth = require( '@stdlib/math-base-special-coth' );
+import coth from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-coth@esm/index.mjs';
 ```
 
 #### coth( x )
@@ -78,9 +62,14 @@ v = coth( NaN );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var linspace = require( '@stdlib/array-base-linspace' );
-var coth = require( '@stdlib/math-base-special-coth' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@esm/index.mjs';
+import coth from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-coth@esm/index.mjs';
 
 var x = linspace( -10.0, 10.0, 100 );
 
@@ -88,6 +77,10 @@ var i;
 for ( i = 0; i < x.length; i++ ) {
     console.log( coth( x[ i ] ) );
 }
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -111,7 +104,7 @@ for ( i = 0; i < x.length; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
