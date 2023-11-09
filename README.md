@@ -35,14 +35,30 @@ limitations under the License.
 
 > Compute the [hyperbolic cotangent][hyperbolic-functions] of a number.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-coth
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import coth from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-coth@esm/index.mjs';
+var coth = require( '@stdlib/math-base-special-coth' );
 ```
 
 #### coth( x )
@@ -73,14 +89,9 @@ v = coth( NaN );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@esm/index.mjs';
-import coth from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-coth@esm/index.mjs';
+```javascript
+var linspace = require( '@stdlib/array-base-linspace' );
+var coth = require( '@stdlib/math-base-special-coth' );
 
 var x = linspace( -10.0, 10.0, 100 );
 
@@ -88,10 +99,6 @@ var i;
 for ( i = 0; i < x.length; i++ ) {
     console.log( coth( x[ i ] ) );
 }
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -101,6 +108,15 @@ for ( i = 0; i < x.length; i++ ) {
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
 <section class="related">
+
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/math-base/special/acoth`][@stdlib/math/base/special/acoth]</span><span class="delimiter">: </span><span class="description">compute the inverse hyperbolic cotangent.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/cot`][@stdlib/math/base/special/cot]</span><span class="delimiter">: </span><span class="description">evaluate the cotangent of a number.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/csch`][@stdlib/math/base/special/csch]</span><span class="delimiter">: </span><span class="description">compute the hyperbolic cosecant of a number.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/tanh`][@stdlib/math/base/special/tanh]</span><span class="delimiter">: </span><span class="description">compute the hyperbolic tangent of a double-precision floating-point number.</span>
 
 </section>
 
@@ -115,7 +131,7 @@ for ( i = 0; i < x.length; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -176,6 +192,18 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-base-special-coth/main/LICENSE
 
 [hyperbolic-functions]: https://en.wikipedia.org/wiki/Hyperbolic_functions
+
+<!-- <related-links> -->
+
+[@stdlib/math/base/special/acoth]: https://github.com/stdlib-js/math-base-special-acoth
+
+[@stdlib/math/base/special/cot]: https://github.com/stdlib-js/math-base-special-cot
+
+[@stdlib/math/base/special/csch]: https://github.com/stdlib-js/math-base-special-csch
+
+[@stdlib/math/base/special/tanh]: https://github.com/stdlib-js/math-base-special-tanh
+
+<!-- </related-links> -->
 
 </section>
 
