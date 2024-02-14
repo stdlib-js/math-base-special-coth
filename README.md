@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import coth from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-coth@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-coth/tags). For example,
+
+```javascript
 import coth from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-coth@v0.2.0-deno/mod.js';
 ```
 
@@ -75,7 +80,7 @@ v = coth( NaN );
 
 ```javascript
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@deno/mod.js';
-import coth from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-coth@v0.2.0-deno/mod.js';
+import coth from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-coth@deno/mod.js';
 
 var x = linspace( -10.0, 10.0, 100 );
 
