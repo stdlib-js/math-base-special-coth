@@ -36,8 +36,8 @@
       "libraries": [],
       "libpath": [],
       "dependencies": [
-        "@stdlib/math/base/napi/unary",
-        "@stdlib/math/base/special/tanh"
+        "@stdlib/math-base-napi-unary",
+        "@stdlib/math-base-special-tanh"
       ]
     },
     {
@@ -51,7 +51,7 @@
       "libraries": [],
       "libpath": [],
       "dependencies": [
-        "@stdlib/math/base/special/tanh"
+        "@stdlib/math-base-special-tanh"
       ]
     },
     {
@@ -65,7 +65,7 @@
       "libraries": [],
       "libpath": [],
       "dependencies": [
-       "@stdlib/math/base/special/tanh"
+       "@stdlib/math-base-special-tanh"
       ]
     }
   ]

@@ -39,7 +39,9 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/math-base-special-tanh": "^0.2.1"
+    "@stdlib/math-base-napi-unary": "^0.2.1",
+    "@stdlib/math-base-special-tanh": "^0.2.1",
+    "@stdlib/utils-library-manifest": "^0.2.1"
   },
   "devDependencies": {
     "@stdlib/array-base-linspace": "^0.2.1",
