@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-15)
+## Unreleased (2024-12-23)
 
 <section class="commits">
 
@@ -12,6 +12,8 @@
 
 <details>
 
+-   [`318f280`](https://github.com/stdlib-js/stdlib/commit/318f28057bf00d910a656c4f315b8de17f89d3b5) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`c13062e`](https://github.com/stdlib-js/stdlib/commit/c13062e5b90cbe28ec62f0b690211bd14b626cf3) - **style:** update to use tabs for indentation _(by Philipp Burckhardt)_
 -   [`ff25e13`](https://github.com/stdlib-js/stdlib/commit/ff25e1324e1507cc076078e82badce7fdf7915f6) - **docs:** remove excess whitespace _(by Philipp Burckhardt)_
 -   [`0756fb5`](https://github.com/stdlib-js/stdlib/commit/0756fb583ae0061031335704fdc46805f408f9c9) - **style:** remove empty lines _(by Philipp Burckhardt)_
 -   [`4817867`](https://github.com/stdlib-js/stdlib/commit/4817867dcbddffe1ead3f532e01fce352bd77808) - **chore:** move stdlib benchmarks into native sub-directories _(by Philipp Burckhardt)_
@@ -86,7 +88,7 @@ This release closes the following issue:
 -   [`9ed7d0e`](https://github.com/stdlib-js/stdlib/commit/9ed7d0e7d57edb5ad0dfb65c944bed87d475cbf3) - **chore:** add missing trailing newlines _(by Philipp Burckhardt)_
 -   [`d40dbaf`](https://github.com/stdlib-js/stdlib/commit/d40dbafc25e3e10c8fa83f5b4203db97c289823c) - **chore:** update package meta data [(#1812)](https://github.com/stdlib-js/stdlib/pull/1812) _(by stdlib-bot)_
 -   [`8484053`](https://github.com/stdlib-js/stdlib/commit/84840535f83baa0b4638c5cf467144d4b0eb40d6) - **fix:** rename configuration file [(#1730)](https://github.com/stdlib-js/stdlib/pull/1730) _(by Pranav Goswami)_
--   [`1aaab57`](https://github.com/stdlib-js/stdlib/commit/1aaab5736f41d8330154339c52f8755381f04667) - **feat:** add C implementation for `math/base/special/coth` _(by Lovelin)_
+-   [`1aaab57`](https://github.com/stdlib-js/stdlib/commit/1aaab5736f41d8330154339c52f8755381f04667) - **feat:** add C implementation for `math/base/special/coth` _(by Lovelin Dhoni J B)_
 
 </details>
 
@@ -101,7 +103,7 @@ This release closes the following issue:
 A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
--   Lovelin
+-   Lovelin Dhoni J B
 -   Philipp Burckhardt
 -   Pranav Goswami
 
