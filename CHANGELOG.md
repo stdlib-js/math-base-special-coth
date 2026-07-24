@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-10)
+## Unreleased (2026-07-24)
 
 <section class="issues">
 
@@ -24,6 +24,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`dadb5e1`](https://github.com/stdlib-js/stdlib/commit/dadb5e19fb4220baaf1ea34f19600a8848afb26b) - **test:** migrate `math/base/special/coth` to ULP-based testing [(#13635)](https://github.com/stdlib-js/stdlib/pull/13635) _(by Philipp Burckhardt)_
 -   [`ac73ec4`](https://github.com/stdlib-js/stdlib/commit/ac73ec4a3cfa54e8e541d47b55fcfa99db10d65e) - **chore:** fix EditorConfig lint errors [(#12337)](https://github.com/stdlib-js/stdlib/pull/12337) _(by Anurag Pappula)_
 -   [`c73c8b3`](https://github.com/stdlib-js/stdlib/commit/c73c8b39bd76529182ea2b3423c6f0feab434774) - **bench:** refactor to use string interpolation in `math/base/special` [(#11387)](https://github.com/stdlib-js/stdlib/pull/11387) _(by Karan Anand)_
 
@@ -37,10 +38,11 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Anurag Pappula
 -   Karan Anand
+-   Philipp Burckhardt
 
 </section>
 
